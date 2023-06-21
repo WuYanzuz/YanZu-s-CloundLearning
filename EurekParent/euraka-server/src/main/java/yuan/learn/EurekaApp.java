@@ -1,4 +1,4 @@
-package com.itheima.eureka;
+package yuan.learn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

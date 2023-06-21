@@ -11,6 +11,19 @@
 
     <artifactId>eureka-consumer</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>yuan.learn</groupId>
+            <artifactId>eureka-provider</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!--spring boot web-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+    </dependencies>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
